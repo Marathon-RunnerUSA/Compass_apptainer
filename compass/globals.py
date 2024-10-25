@@ -5,7 +5,7 @@ import os
 import logging
 import sys
 
-_this_directory = os.path.dirname(os.path.abspath(__file__))
+_this_directory = os.path.abspath('/compass_tmp')
 
 GIT_DIR = os.path.abspath(
     os.path.join(_this_directory, '..', '.git')
